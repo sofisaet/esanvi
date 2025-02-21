@@ -1,0 +1,72 @@
+/* ----- Contenedor Principal de "Sobre Nosotros" ----- */
+.sobre-nosotros-container {
+    width: 80%;
+    margin: 100px auto 20px auto; /* 🔽 Se aumentó margen superior */
+    text-align: center;
+}
+
+/* ----- Estilos para los títulos ----- */
+.sobre-nosotros-container h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sobre-nosotros-container h3 {
+    font-size: 22px;
+    color: #ff7300;
+    margin-top: 30px; /* 🔽 Más separación */
+}
+
+.sobre-nosotros-container p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+/* ----- Más espacio antes del botón final ----- */
+.sobre-nosotros-container h2 {
+    margin-top: 60px; /* 🔽 Más separación antes del CTA */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sobre-nosotros-container a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #ff7300;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.sobre-nosotros-container a:hover {
+    background-color: #e06600;
+}
+
+/* ----- Adaptación a Teléfonos ----- */
+@media screen and (max-width: 768px) {
+    .sobre-nosotros-container {
+        width: 90%;
+        margin-top: 60px; /* 🔽 También bajamos en móviles */
+    }
+
+    .sobre-nosotros-container h1 {
+        font-size: 26px;
+    }
+
+    .sobre-nosotros-container h3 {
+        font-size: 20px;
+    }
+
+    .sobre-nosotros-container p {
+        font-size: 16px;
+    }
+}
