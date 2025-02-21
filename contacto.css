@@ -1,0 +1,111 @@
+/* ----- Contenedor de Contacto ----- */
+.contactanos-container {
+    width: 80%;
+    margin: 100px auto 20px auto; /* 🔽 Se bajó más para alinearlo con las demás páginas */
+    text-align: center;
+}
+
+/* ----- Estilos del Título ----- */
+.contactanos-container h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contactanos-container h3 {
+    font-size: 20px;
+    color: #ff7300;
+    margin-top: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ----- Formulario de Contacto ----- */
+.contact-form {
+    width: 50%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* ----- Botón de Enviar SOLO del Formulario de Contacto ----- */
+.contact-form input[type="submit"] {
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #e06600;
+}
+
+/* ----- Información de Contacto ----- */
+.contactanos-info {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #333;
+}
+
+.contactanos-info p {
+    margin-bottom: 10px;
+}
+
+/* ----- Ajuste del Footer ----- */
+footer {
+    margin-top: 50px;
+}
+
+/* ----- Estilos del Formulario en el Footer (Suscripción) ----- */
+.footer-form input[type="submit"] {
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.footer-form input[type="submit"]:hover {
+    background-color: #e06600;
+}
+
+/* ----- Adaptación a Teléfonos ----- */
+@media screen and (max-width: 768px) {
+    .contactanos-container {
+        width: 90%;
+        margin-top: 60px; /* 🔽 También bajamos en móviles */
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
